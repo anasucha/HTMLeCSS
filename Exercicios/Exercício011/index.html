@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens</title>
+</head>
+<body>
+    <h1>Testando imagens</h1>
+    <p>Bora lá. Primeiro bota a imagem maior como base, depois vai botando os sources acima. Abrir tag picture e depois img, depois sources</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    
+    <h1>Audios</h1>
+    <p>Agora vamos aprender a reproduzir audios em HTML5</p>
+    <p>A forma mais faci de inserir um audio é só escrever "audio" que ele já vai pedir o src pra colocar a localização do arquivo e depois adicionar o parâmetro controls + autoplay .</p>
+    <audio src="midia/sem-medo.mp3" controls autoplay></audio> 
+    <!--compativel com formatos MP3, WAV e OGG-->
+    <p>Outra forma de fazer:</p>
+    <audio>
+        <source src="midia/deixa-o-som-rolar.mp3" type="audio/mp3">
+        <p>Infelizmente seu navegador nao carrega mp3, para fazer o download do audio, <a href="midia/deixa-o-som-rolar.mp3">clique aqui</a></p>
+        
+
+    </audio>
+
+
+
+
+</body>
+</html>
