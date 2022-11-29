@@ -1,3 +1,16 @@
+
+passion one
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+</style>
+
+sriracha
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+</style>
+
+
+
 Cordel Moderno
 Por Milton Duarte
 [SITE: https://www.recantodasletras.com.br/poesias/3186743]
