@@ -14,6 +14,38 @@
             <input type="text" name="nome" id="inome" minlength="5" maxlength="45" autocomplete="name" required></p>
             <p><label for="iidade">Idade: </label>
             <input type="number" name="idade" id="iidade" max="160" min="0" step="1" value="30" required></p>
+
+            <p>
+                <label for="iest">Estado: </label>
+                <select name="estado" id="iest">
+                    <option value=""selected>--Escolha--</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+
+                    </optgroup>
+
+                </select>
+            </p>
+
+            <p>
+                <label for="iprof">Prfissão: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof"> 
+                <datalist id="lstprof">
+                    <option >Administrador</option>
+                    <option >Psicologo</option>
+                    <option>Desenvolvedor</option>
+
+                </datalist>
+
+            </p>
         
             <fieldset>
                 <legend>Sexo:</legend>
