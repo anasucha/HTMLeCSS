@@ -7,7 +7,7 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="login.php" method="get" autocomplete="on">
+    <form action="login.php" method="post" autocomplete="on">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <p><label for="inome">Nome: </label>
@@ -29,6 +29,12 @@
             <input type="checkbox" name="judo" id="ijudo"><label for="ijudo">Judô</label><br>
             <input type="checkbox" name="natac" id="inatac"><label for="inatac">Natação</label>
         </fieldset>
+
+        <p><label for="inivel">Nível de Satisfação</label>
+        <input type="range" name="nivel" id="inivel" min="1" max="5"></p>
+
+        <p><label for="ifoto">Foto de Perfil</label>
+        <input type="file" name="foto" id="ifoto"></p>
 
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
