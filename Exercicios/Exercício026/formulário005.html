@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="login.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" minlength="5" maxlength="45" autocomplete="name" required></p>
+            <p><label for="iidade">Idade: </label>
+            <input type="number" name="idade" id="iidade" max="160" min="0" step="1" value="30" required></p>
+        
+            <fieldset>
+                <legend>Sexo:</legend>
+                <p><input type="radio" name="sexo" id="isxfem" checked><label for="isxfem">Feminino</label></p>
+                <p><input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label></p>
+                <p><input type="radio" name="sexo" id="ioutro"><label for="ioutro">Outro</label></p>
+            </fieldset>
+
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label><br>
+            <input type="checkbox" name="judo" id="ijudo"><label for="ijudo">Judô</label><br>
+            <input type="checkbox" name="natac" id="inatac"><label for="inatac">Natação</label>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+    
+</body>
+</html>
