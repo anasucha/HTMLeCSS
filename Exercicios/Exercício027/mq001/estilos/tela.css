@@ -1,0 +1,51 @@
+@charset "UTF-8"
+
+/*Estilo para telas*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+
+#titulo {
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+menu ul {
+    list-style-type: none;
+}
+menu li {
+    display: inline-block;
+    
+    padding: 10px
+    
+}
+
+article {
+    max-width: 600px;
+    text-align: center;
+    line-height: 1em;
+    display: block;
+    margin: auto;
+    
+}
+
+p {
+    text-align: justify;
+}
