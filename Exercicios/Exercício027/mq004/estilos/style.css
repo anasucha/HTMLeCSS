@@ -35,11 +35,12 @@ main {
 }
 
 img {
-    display: block;
+    
     margin: auto;
-
+    
 }
 
+img#cel {display: block;}
 img#tv {display: none;}
 img#pc {display: none;}
 img#print {display: none;}
