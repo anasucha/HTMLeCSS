@@ -46,6 +46,30 @@
     
  }
 
+ @media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 1px solid black;
+    }
+
+    h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    img#cel {display: none;}
+    img#tv {display: none;}
+    img#pc {display: none;}
+    img#print {display: block;}
+    img#tablet {display: none;}
+ }
+
  
 
  
